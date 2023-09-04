@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import QueryWeather from "./compoments/QueryWeather";
-import { ErrorLog } from "./compoments/ErrorLog";
+import QueryWeather from "./components/QueryWeather";
+import { ErrorLog } from "./components/ErrorLog";
 import { useRef } from "react";
 import { setInterceptors } from "@/requset";
 export default function Home() {
